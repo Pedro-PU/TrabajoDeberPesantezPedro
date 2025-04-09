@@ -4,6 +4,8 @@ public class App {
         System.out.println("Suma de números hasta 5: " + ejercicios.sumaConsecutivos(5));
         System.out.println("Potencia 2^3: " + ejercicios.potencia(2, 3));
         System.out.println("Suma de dígitos de 1234: " + ejercicios.sumaDigitos(1234));
+        System.out.println("Fibonacci de 10: " + ejercicios.fibonacci(10));
+
     }
 }
 

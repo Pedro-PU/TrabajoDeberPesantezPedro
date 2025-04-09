@@ -1,5 +1,6 @@
 public class Ejercicios {
 
+    public int llamadasRecursiva = 1;
     public int sumaConsecutivos(int n) {
         if (n == 1) {
             return 1;
@@ -23,4 +24,12 @@ public class Ejercicios {
             return (n % 10) + sumaDigitos(n / 10);
         }
     }
+
+    public int fibonacci(int n) {
+        if (n<=1){
+            return n;
+        }
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+    
 }
